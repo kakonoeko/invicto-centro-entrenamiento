@@ -20,4 +20,6 @@ Edita `index.html` y guarda los cambios en un commit. Conserva una copia antes d
 
 ## Publicación
 
-Este repositorio conserva el código. GitHub Pages no está activado.
+Web publicada en GitHub Pages: https://kakonoeko.github.io/invicto-centro-entrenamiento/
+
+La publicación se realiza desde la rama `main`, carpeta raíz. Al guardar cambios en `index.html` en esa rama, GitHub Pages actualiza la web automáticamente.
