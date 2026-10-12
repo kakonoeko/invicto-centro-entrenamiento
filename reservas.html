@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reservas · Invicto</title><meta name="description" content="Demo de reservas de Invicto: elige tu entrenamiento, encuentra tu horario y prueba la agenda del centro.">
+<meta name="theme-color" content="#111210"><link rel="icon" href="assets/logo.jpeg"><link rel="stylesheet" href="reservas.css"><link rel="stylesheet" href="pagos.css">
+</head>
+<body>
+<a class="skip" href="#app">Ir al contenido</a>
+<header class="top"><div class="wrap nav"><a class="brand" href="index.html"><img src="assets/logo.jpeg" alt=""><span class="wordmark">INVICTO<small>Centro de Entrenamiento</small></span></a><a class="back-site" href="index.html">← Volver a la web</a><span class="demo-tag">PROYECTO DEMO</span></div></header>
+<main id="app" class="wrap">
+<div class="page-head"><div><div class="eyebrow">Tu próxima sesión empieza aquí</div><h1>HAZ HUECO<br><span>PARA TI.</span></h1><p>Tu entrenamiento. Tu ritmo. Tu próximo paso.</p></div><div class="head-note"><span class="line-icon">↗</span><p>Grupos de hasta <strong>6 personas.</strong><br>Un espacio para superarte.</p></div></div>
+<div class="app-nav" aria-label="Secciones de reservas"><button data-view="reserva" aria-pressed="true">Reservar sesión <span>↗</span></button><button data-view="mis-reservas" aria-pressed="false">Mis reservas <span id="my-count">0</span></button><button data-view="pagos" aria-pressed="false">Pagos y bonos <span>↗</span></button><button data-view="agenda" aria-pressed="false">Agenda del centro <span>↗</span></button></div>
+<div class="demo-note"><span class="status-dot"></span><p><strong>Modo demostración.</strong> Horarios, plazas y asistentes ficticios. Nada se envía al centro ni se cobra. Los cambios se guardan solo en este navegador; la agenda es de acceso libre en esta demo.</p><button id="about-demo" class="quiet">Cómo funciona ↗</button></div>
+<p id="storage-warning" class="warning" hidden>El navegador no permite guardar datos. Puedes probar la demo, pero los cambios se perderán al recargar.</p>
+<div id="view-root"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+</main>
+<footer class="wrap"><span>INVICTO · A CORUÑA</span><span>Entrena mejor. Supera tus límites.</span><button id="reset-demo" class="quiet">Reiniciar datos de prueba ↺</button></footer>
+<dialog id="modal" aria-labelledby="modal-title"><div id="modal-body"></div></dialog>
+<script type="module" src="reservas.js"></script>
+</body></html>
+
